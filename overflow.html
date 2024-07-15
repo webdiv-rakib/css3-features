@@ -5,12 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overflow</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 300px;
+            border: 3px solid;
+        }
+
+        #box-1 {
+            overflow: scroll;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+    </style>
 </head>
 
 <body>
     <section>
         <!-- .box*2>h3{My Text Box $}+p>lorem100 -->
-        <div class="box">
+        <div id="box-1" class="box">
             <h3>My Text Box 1</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia officia adipisci molestiae nisi et
                 delectus? Cum minima praesentium totam quam voluptatem fugit, dolorem explicabo tempora eum eius dolor
@@ -21,7 +34,7 @@
                 itaque sunt nam facilis atque. Vel, molestiae harum! Nisi necessitatibus qui obcaecati iure deserunt
                 dolores, eaque suscipit, nam, ex eligendi libero!</p>
         </div>
-        <div class="box">
+        <div id="box-1" class="box">
             <h3>My Text Box 2</h3>
             <p>Perferendis optio iure repellendus dolor modi illo dolorem ex, vel, porro animi facilis reiciendis eaque
                 obcaecati. Sequi corrupti voluptatum quia culpa repudiandae ut reiciendis, quos fugit placeat dolor illo
@@ -31,6 +44,11 @@
                 dolorum a. Saepe ab rem voluptatibus? Quaerat, maxime. Aut impedit sequi sapiente quasi officiis neque
                 distinctio quam, a modi nam voluptatibus odio maiores minus quis saepe, rerum dicta? Maxime cum quos
                 odit?</p>
+        </div>
+        <div id="box-1" class="box">
+            <h3>My Text Box 2</h3>
+            <p>Perferendis optio iure repellendus dolor modi illo dolorem ex, vel, porro animi facilis reiciendis eaque
+            </p>
         </div>
     </section>
 </body>
