@@ -10,17 +10,31 @@
             width: 300px;
             height: 300px;
             border: 3px solid;
+            overflow: auto;
         }
 
-        #box-1 {
+        /* #box-1 {
             overflow: scroll;
             overflow-x: hidden;
             overflow-y: auto;
+        } */
+
+        .ellipsis{
+            width: 300px;
+            border: 2px solid;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
     </style>
 </head>
 
 <body>
+    <header>
+        <p title="I am investing at least 6-8hrs every single day. No gap at all." class="ellipsis">
+            I am a serious learning. I am investing at least 6-8hrs every single day. No gap at all.
+        </p>
+    </header>
     <section>
         <!-- .box*2>h3{My Text Box $}+p>lorem100 -->
         <div id="box-1" class="box">
